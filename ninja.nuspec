@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ninja</id>
+    <title>Ninja</title>
+    <version>1.5.1</version>
+    <authors>Evan Martin</authors>
+    <owners>Robo</owners>
+    <summary>Ninja - build tool</summary>
+    <description>a small build system with focus on speed</description>
+    <projectUrl>https://github.com/martine/ninja</projectUrl>
+    <tags>ninja build cmake gyp</tags>
+    <copyright>https://github.com/martine/ninja/blob/master/COPYING</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
