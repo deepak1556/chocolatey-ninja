@@ -3,16 +3,20 @@
   <metadata>
     <id>ninja</id>
     <title>Ninja</title>
-    <version>1.5.3</version>
+    <version>1.6.0</version>
     <authors>Evan Martin</authors>
     <owners>Robo</owners>
     <summary>Ninja - build tool</summary>
-    <description>a small build system with focus on speed</description>
+    <description>
+      Read more on http://martine.github.com/ninja/
+
+      A small build system with focus on speed
+    </description>
     <projectUrl>https://github.com/martine/ninja</projectUrl>
     <tags>ninja build cmake gyp</tags>
     <copyright>https://github.com/martine/ninja/blob/master/COPYING</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>https://github.com/martine/ninja/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
