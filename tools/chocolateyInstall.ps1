@@ -1,13 +1,4 @@
-try {
-  $sysDrive = $env:SystemDrive
-  $ninjaPath =  "$sysDrive/tools/ninja"
+$packageName = 'ninja'
+$url = 'https://github.com/martine/ninja/releases/download/v1.6.0/ninja-win.zip'
 
-  Install-ChocolateyZipPackage 'ninja' 'https://github.com/martine/ninja/releases/download/v1.5.3/ninja-win.zip' $ninjaPath
-  Install-ChocolateyPath $ninjaPath
-
-  write-host 'ninja has been installed. Call ninja -h from the command line to see the list of options. You may need to close and repoen the command shell.'
-  Write-ChocolateySuccess 'ninja'
-} catch {
-  Write-ChocolateyFailure 'ninja' $($._Exception.Message)
-  throw
-}
+Install-ChocolateyZipPackage $packagename $url $(Split-Path -parent $MyInvocation.MyCommand.Definition)
