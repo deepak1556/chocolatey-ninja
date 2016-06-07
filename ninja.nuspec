@@ -3,20 +3,20 @@
   <metadata>
     <id>ninja</id>
     <title>Ninja</title>
-    <version>1.6.0</version>
-    <authors>Evan Martin</authors>
+    <version>1.7.1</version>
+    <authors>https://github.com/ninja-build/ninja/graphs/contributors</authors>
     <owners>Robo</owners>
     <summary>Ninja - build tool</summary>
     <description>
-      Read more on http://martine.github.com/ninja/
-
       A small build system with focus on speed
     </description>
-    <projectUrl>https://github.com/martine/ninja</projectUrl>
     <tags>ninja build cmake gyp</tags>
-    <copyright>https://github.com/martine/ninja/blob/master/COPYING</copyright>
+    <projectUrl>https://github.com/ninja-build/ninja</projectUrl>
+    <licenseUrl>https://github.com/ninja-build/ninja/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://github.com/martine/ninja/releases</releaseNotes>
+    <docsUrl>https://ninja-build.org/</docsUrl>
+    <packageSourceUrl>https://github.com/deepak1556/chocolatey-ninja</packageSourceUrl>
+    <releaseNotes>https://github.com/ninja-build/ninja/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
