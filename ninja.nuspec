@@ -3,7 +3,7 @@
   <metadata>
     <id>ninja</id>
     <title>Ninja</title>
-    <version>1.7.1</version>
+    <version>1.7.2</version>
     <authors>https://github.com/ninja-build/ninja/graphs/contributors</authors>
     <owners>Robo</owners>
     <summary>Ninja - build tool</summary>
